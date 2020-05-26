@@ -96,23 +96,25 @@ while True:
 
     
     # Creating the table
-    t=[]
-    t[2] = 'h'
-    t[2]
-    l = list(t)
-    l[tortoise] = 'T'
-    l[hare] = 'H'
-    print(f'{l}')
- 
-    # if they are at same spot
+    visual = list(range(0,90)) 
+
+    #If at same spot, tortoise bites hare
     if tortoise == hare:
-        l[tortoise] = ' OUCH '
+        visual[tortoise] = ' OUCH '
+    
+    else:
+        visual[tortoise] = 'T'
+        visual[hare] = 'H'
+    
+    print(visual)
+    
+
     
 # Winner
-    if tortoise >= 70:
+    if tortoise >= 70 and tortoise >= hare:
         print("Tortoise wins!!!YAY!!!")
         break
-    elif hare >= 70:
+    elif hare >= 70 and hare >= tortoise:
         print("Hare wins!!!Yuch!!!")
         break
  
