@@ -69,7 +69,7 @@ print('And they are off!!!')
 while True:
     r = randint(1, 11)
     
-    # tortoise's movement
+# tortoise's movement
     if r<= 5:
         tortoise = tortoise + 3
     elif r<=7:
@@ -77,7 +77,7 @@ while True:
     else:
         tortoise = tortoise + 1
 
-    # hare's movement
+# hare's movement
     if r <= 2:
         hare = hare
     elif r <= 4:
@@ -90,15 +90,10 @@ while True:
         hare = hare - 1
     
     
-    
-    
+# Creating the table
+    visual = list(range(0,75)) 
 
-
-    
-    # Creating the table
-    visual = list(range(0,90)) 
-
-    #If at same spot, tortoise bites hare
+#If at same spot, tortoise bites hare
     if tortoise == hare:
         visual[tortoise] = ' OUCH '
     
@@ -109,7 +104,6 @@ while True:
     print(visual)
     
 
-    
 # Winner
     if tortoise >= 70 and tortoise >= hare:
         print("Tortoise wins!!!YAY!!!")
