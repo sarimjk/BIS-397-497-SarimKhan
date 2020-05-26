@@ -34,6 +34,6 @@ print (f'Year \t Amount')
 
 for n in range(1,31):
     a =+ a * (1 + r)
-    print(f'{n}\t\t {a}')
+    print(f'{n}\t\t ${a:.0f}')
     
     

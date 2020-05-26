@@ -19,9 +19,15 @@ precision for the results. Print the outputs in a neat tabular format.
 def Far(C):
     return (9/5) * C + 32
 
-print(f'C \t F')
+print(f'C \t\t\t F')
 
 for celsius in range(0,101):
     farenheit = Far(celsius)
-    print('%.0f \t\t  %0.1f' %(celsius, farenheit))
+    #print('%.0f \t\t  %0.1f' %(celsius, farenheit))
+    
+    if celsius < 100:
+        print('%.0f \t\t  %0.1f' %(celsius, farenheit))
+    else:
+        print('%.0f \t  %0.1f' %(celsius, farenheit))
+
 

@@ -45,11 +45,14 @@ passes = 0  # number of passes
 failures = 0  # number of failures
 
 # process 10 students
-for student in range(2):
+for student in range(11):
     # get one exam result
     
     correct = 1    #ensure either 1 or 0 are entered. 1 means incorrect
     result = int(input(f' Enter result {student} (1=pass, 2=fail): '))
+    #check for null
+  
+    
     while correct == 1:
         if result != 1 and result !=2 :  
             result = int(input(f'Enter correct value for {student} (1=pass, 2=fail): '))

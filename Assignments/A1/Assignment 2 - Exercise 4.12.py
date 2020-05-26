@@ -53,24 +53,22 @@ at how involved your audience gets!
  """
  
  
- 
- 
- 
 from random import randint
-t=' ' * 71
-l=list(t)
+
+# Initial position
+tortoise = 0
+hare = 0
+timer = 0
 
 # Start the race!
 print('Bang!!!')
 print('And they are off!!!')
 
-# Initial position
-tortoise=1
-hare=1
 
 # Movement during the race
 while True:
     r = randint(1, 11)
+    
     # tortoise's movement
     if r<= 5:
         tortoise = tortoise + 3
@@ -91,19 +89,24 @@ while True:
     else:
         hare = hare - 1
     
-    # if they are at same spot
-    if tortoise == hare:
-        l[tortoise] = ' OUCH '
-        print(''.join(l))
+    
+    
+    
+
+
     
     # Creating the table
-    t=' '*90
+    t=[]
+    t[2] = 'h'
+    t[2]
     l = list(t)
     l[tortoise] = 'T'
     l[hare] = 'H'
     print(f'{l}')
-
-    
+ 
+    # if they are at same spot
+    if tortoise == hare:
+        l[tortoise] = ' OUCH '
     
 # Winner
     if tortoise >= 70:
