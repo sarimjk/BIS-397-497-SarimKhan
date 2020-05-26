@@ -32,7 +32,7 @@ response = input("Have you had this problem before - Yes or no ? ")
 
 if response == "Yes":
     print("Well, you have it again.")
-else:
+elif response == "No":
     print("Well, you have it now.")
 
 

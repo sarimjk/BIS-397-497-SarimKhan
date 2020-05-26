@@ -1,0 +1,15 @@
+2.8	Done
+
+2.12	Done
+
+3.1	Q. Do we need to account for null inputs?
+
+3.6	Done
+
+3.10	Q. Do we care about decimal precision?
+
+3.16	Can't do the sort
+
+4.9  	How to do decimal along with alignment
+
+4.12 	Need help
