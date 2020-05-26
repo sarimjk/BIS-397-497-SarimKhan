@@ -16,6 +16,6 @@ numbers = [0, 1, 2, 3, 4, 5]
 print("number\tsquare\tcube")
 
 for x in numbers:
-    print(f'{x} \t\t {x*x} \t\t {x*x*x}')
+    print(f'{x:<2} \t\t {x**2:<2} \t\t {x**3:<2}')
     
     

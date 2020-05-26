@@ -23,7 +23,5 @@ print(f'C \t F')
 
 for celsius in range(0,101):
     farenheit = Far(celsius)
-    print(f'{celsius} \t {farenheit}')
+    print('%.0f \t\t  %0.1f' %(celsius, farenheit))
 
-
-######################## 1 digit precision issue
