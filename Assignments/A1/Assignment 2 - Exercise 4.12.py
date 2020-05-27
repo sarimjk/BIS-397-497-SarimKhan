@@ -91,7 +91,8 @@ while True:
     
     
 # Creating the table
-    visual = list(range(0,75)) 
+    visual = []   
+    visual = list(range(0,75))
 
 #If at same spot, tortoise bites hare
     if tortoise == hare:
@@ -100,9 +101,10 @@ while True:
     else:
         visual[tortoise] = 'T'
         visual[hare] = 'H'
-    
+    print(timer)
     print(visual)
     
+    timer = timer + 1
 
 # Winner
     if tortoise >= 70 and tortoise >= hare:
