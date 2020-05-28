@@ -1,0 +1,15 @@
+5.5     Done
+
+5.11    Done
+
+5.15    Section c to f
+
+5.20    How to get column index
+
+5.28    Done
+
+6.5     How to ignore punctuation and return only dupilcates
+
+6.8     Done
+
+6.17
