@@ -61,11 +61,13 @@ prodtupl = [('83','Electric sander',7,7.98),('24','Power saw',18,99.99),
 from operator import itemgetter
 
 #a. sort by description
-print('Sorted by Description')
+print('Sorted by Description:')
 print(sorted(prodtupl,key=itemgetter(1)))
+print()
 
 #b. sort by price
-print('Sorted by Price')
+print('Sorted by Price:')
+print(sorted(prodtupl,key=itemgetter(3)))
 
 #c. Map
-USe map function to pull out the two it is asking. Then sort itemgetter
+
