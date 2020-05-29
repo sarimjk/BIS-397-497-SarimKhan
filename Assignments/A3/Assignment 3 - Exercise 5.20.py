@@ -18,10 +18,13 @@ def display_table(a):
 
         print(r, end=' ')
         r = r+1
+        
+        """
         for item in row:
             print(item, end=' ')
         print()
-        
-b = [[10,11,12],[20,21,22],[30,31,32],[40,41,42]]
+        """
+b =        
+#b = [[10,11,12],[20,21,22],[30,31,32],[40,41,42]]
 
 display_table(b)

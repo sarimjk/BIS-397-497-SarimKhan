@@ -68,5 +68,4 @@ print(sorted(prodtupl,key=itemgetter(1)))
 print('Sorted by Price')
 
 #c. Map
-list(map())
-print(sorted(prodtupl,key=itemgetter(3)))
+USe map function to pull out the two it is asking. Then sort itemgetter

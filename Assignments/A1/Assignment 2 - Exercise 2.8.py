@@ -13,7 +13,7 @@ Created on Fri May 22 13:15:13 2020
 
 numbers = [0, 1, 2, 3, 4, 5]
 
-print("number\tsquare\tcube")
+print("number\tsquare\t\tcube")
 
 for x in numbers:
     print(f'{x:<2} \t\t {x**2:<2} \t\t {x**3:<2}')

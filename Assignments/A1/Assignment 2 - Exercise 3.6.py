@@ -34,6 +34,8 @@ if response == "Yes":
     print("Well, you have it again.")
 elif response == "No":
     print("Well, you have it now.")
+else:
+    print("You did not answer me properly. I can't hear you through your sickness")
 
 
 # Answer: This will not convince the user that this is a human. This is too 

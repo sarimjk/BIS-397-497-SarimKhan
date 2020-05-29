@@ -13,12 +13,24 @@ Created on Thu May 28 22:01:07 2020
  replacements are shown below:
 
 
-An example of a dictionary of ingredients and their substitutions includes
- pairs such as 1 cup of sour cream and 1 cup yogurt, 1 teaspoon lemon juice
- and 1 half teaspoon vinegar, and 1 cup butter and 1 cup margarine or yogurt.
+
 Your dictionary should take into consideration that replacements are not 
 always one-for-one. For example, if a cake recipe calls for three eggs, 
 it might reasonably use six egg whites instead. Research conversion data
  for measurements and ingredient substitutes online. Your dictionary should
  map the ingredients to lists of potential substitutes.
 """
+
+subdict = {"sour cream": ["yogurt",],
+           "milk": ["evaporated milk", "water"],
+           "lemon juice": ["vinegar",],
+           "sugar": ["honey", "molasses", "agave nectar"],
+           "butter": ["margarine","yogurt"],
+           "flour": ["rye flour", "rice flour"],
+           "mayonnaise": ["cottage cheese", "mayonnaise", "yogurt"],
+           "egg": ["cornstarch", "arrowroot flour", "potato starch", 
+                   "egg whites","large banana (mashed)"],
+           "milk": ["soy milk"],
+           "oil": ["applesauce"]}
+
+print(subdict)

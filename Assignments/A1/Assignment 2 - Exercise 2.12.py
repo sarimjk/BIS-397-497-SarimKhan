@@ -29,7 +29,7 @@ print (f'Year \t Amount')
 list = [10,20,30]
 for n in list:
     a = a * (1 + r) ** n
-    print('%.0f \t\t %0.2f' %(n, a))
+    print('%.0f \t\t $%0.2f' %(n, a))
     a = 1000
 
     
