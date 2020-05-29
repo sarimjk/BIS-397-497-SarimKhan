@@ -91,19 +91,18 @@ while True:
     
     
 # Creating the table
-    visual = []   
-    visual = list(range(0,75))
+    for count in range(1, 71):
+        if  count == tortoise and count == hare:
+            print('OUCH!!', end = '')
+        elif count == hare:
+            print('H', end='')
+        elif count == tortoise:
+            print('T', end='')
+        else:
+            print(' ', end='')
 
-    #If at same spot, tortoise bites hare
-    if tortoise == hare:
-        visual[tortoise] = ' OUCH '
-    
-    else:
-        visual[tortoise] = 'T'
-        visual[hare] = 'H'
-    print(timer)
-    print(visual)
-    
+    print()
+   # print(timer)
     timer = timer + 1
 
 # Winner

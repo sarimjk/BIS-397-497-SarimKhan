@@ -2,7 +2,7 @@
 
 5.11    Done
 
-5.15    Section c to f
+5.15    Section c to f. Spoke with Omar
 
 5.20    How to get column index
 
