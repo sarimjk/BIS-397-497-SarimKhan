@@ -22,7 +22,8 @@ it might reasonably use six egg whites instead. Research conversion data
 """
 
 subdict = {"sour cream": ["yogurt",],
-           "milk": ["evaporated milk", "water"],
+           "milk": [0.5, "evaporated milk",0.5, "water"],
+           "milk": ["sdklfjsdklfj"]
            "lemon juice": ["vinegar",],
            "sugar": ["honey", "molasses", "agave nectar"],
            "butter": ["margarine","yogurt"],

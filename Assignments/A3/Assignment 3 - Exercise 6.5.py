@@ -13,7 +13,7 @@ Created on Thu May 28 12:21:49 2020
 
 """
 
-text = ('This is sample text with several words'
+text = ('This is sample text with several words '
         'this is more sample text with some different words')
 
 textcap = text.upper() #ignore upper and lower case

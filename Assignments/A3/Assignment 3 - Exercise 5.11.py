@@ -22,22 +22,22 @@ def summarize_letters(string):
     
     ignore = {' ','','.',',',':',';'}
     result = Counter(x for x in string2 if x not in ignore)
-    print(result)
+    print(f'Here is the counter of each letter entered by user: \n{result}')
     inputlettercount = len(result)
-    print(inputlettercount)
+    #print(inputlettercount)
     
 
     #compare against alphabet
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     alphabetupper = [item.upper() for item in alphabet]
     alphabetconfirm = Counter(alphabetupper)
-    print(alphabetconfirm)
+    #print(alphabetconfirm)
     
     if inputlettercount == 26:
-        print("It contains all the alphabet!")
+        print("The entered string contains all the alphabet!")
         
     else:
-        print("It does not contain all the alphabet")
+        print("The entered string does NOT contain all the alphabet")
     
     
     """
