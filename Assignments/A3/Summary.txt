@@ -1,6 +1,6 @@
 5.5     Done
 
-5.11    Done
+5.11    Better way of verifying pangram
 
 5.15    Done
 
