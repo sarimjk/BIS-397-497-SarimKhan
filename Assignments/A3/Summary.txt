@@ -11,5 +11,3 @@
 6.5     Done
 
 6.8     Done
-
-6.17    Need help with dictionaries. Hold off for now
