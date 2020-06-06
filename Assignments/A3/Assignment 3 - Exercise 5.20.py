@@ -12,33 +12,8 @@ Created on Wed May 27 23:29:04 2020
 """
 
 
-"""
-def display_table(a):
-    r = 0
-    c = 0
-    
-    for row in a:
-        print (r, end = '\t')
-        r = r+1
-    print()
-    
-    for row in a:
-        print(c, end = '\t')  # prints column header
-        
-        
-        for c in row:
-            
-            print(r, end = '\t')
-        print ()
-        r +=1
-        
-a = [[10,11,12],[20,21,22],[30,31,32],[40,41,42]]
-
-display_table(a)
 
 
-
-"""
 
 def display_table(a):
     r = 0
