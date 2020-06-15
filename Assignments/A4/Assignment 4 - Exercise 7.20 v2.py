@@ -29,29 +29,17 @@ This analysis shows why %timeit is convenient for quick performance studies.
  always good to be thinking about performance issues.
 """
 
+import timeit
 import random
 import numpy as np
 
 lista = (1,10,100,1000,10000,100000,1000000)
 counter = ()
 
-print('LIST')
+def myfunction():
+    return counter.extend('8')
+    
+
 for i in lista:
-    obj = %timeit -o l = [*range(counter[i])] 
-    print("Object Average is ",obj.average)
-    
-    #print(f'\nAvg exec time for {i} value(s)')
-    #%timeit oneellist = [random.randrange(i)]
-
-
-print('ARRAY')
-for i in lista:
-    obj = %timeit -o l = [*range(counter[i])] 
-    print("Object Average is ",obj.average)
-    #print(f'\nAvg exec time for {i} value(s)')
-    #%timeit onearray = np.random.randint(1,100,i)
-    
-    
-  
-
+    print(timeit.timeit(myfunction(), number=i))
 
