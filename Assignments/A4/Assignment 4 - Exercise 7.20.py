@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Tue Jun  9 12:30:58 2020
 
@@ -33,23 +32,21 @@ import random
 import numpy as np
 
 lista = (1,10,100,1000,10000,100000,1000000)
-counter = ()
+timer1 = []
+timer2 = []
 
-print('LIST')
+
 for i in lista:
-    obj = %timeit -o l = [*range(counter[i])] 
-    print("Object Average is ",obj.average)
+    print('\nLIST')
+    print(f'Avg exec time for {i} value(s)')
+    %timeit oneellist = [random.randrange(i)]
     
-    #print(f'\nAvg exec time for {i} value(s)')
-    #%timeit oneellist = [random.randrange(i)]
+    print('\nARRAY')
+    print(f'Avg exec time for {i} value(s)')
+    %timeit onearray = np.random.randint(1,2,i)
 
 
-print('ARRAY')
-for i in lista:
-    obj = %timeit -o l = [*range(counter[i])] 
-    print("Object Average is ",obj.average)
-    #print(f'\nAvg exec time for {i} value(s)')
-    #%timeit onearray = np.random.randint(1,100,i)
+
     
     
   
